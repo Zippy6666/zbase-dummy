@@ -35,7 +35,7 @@ end
 
 -- Called continiously as long as it should do the behaviour 
 -- Write whatever the NPC is going to do here
--- Call ZBaseDelayBehaviour( seconds ) to out the behaviour on a cooldown
+-- Call ZBaseDelayBehaviour( seconds ) to put the behaviour on a cooldown
 function BEHAVIOUR.ExampleAttack:Run( self )
 end
 
@@ -69,6 +69,6 @@ end
 
 -- Called continiously as long as it should do the behaviour 
 -- Write whatever the NPC is going to do here
--- Call ZBaseDelayBehaviour( seconds ) to out the behaviour on a cooldown
+-- Call ZBaseDelayBehaviour( seconds ) to put the behaviour on a cooldown
 function BEHAVIOUR.ExampleAttack2:Run( self )
 end
