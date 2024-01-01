@@ -1,4 +1,7 @@
-hook.Add("Initialize", "ZBaseDoom3", function()
+local Name = "ZBaseDummyInit" -- Don't forget to change this!
+
+
+hook.Add("Initialize", Name, function()
 
     -- Change the icon of your category
     if ZBaseInstalled then
